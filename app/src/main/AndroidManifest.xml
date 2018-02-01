@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.october7sveryown.gic">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/gic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:windowSoftInputMode="stateAlwaysHidden">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SlideScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".EventActivity"
+            android:label="Browse Events"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login"
+            android:theme="@style/AppTheme.Dark"/>
+        <activity
+            android:name=".SignupActivity"
+            android:label="Sign up"
+            android:theme="@style/AppTheme.Dark"/>
+        <activity
+            android:name=".ClubActivity"
+            android:label="GIC Clubs"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".OnlineCourseActivity"
+            android:label="Online Courses"
+            android:theme="@style/tabActivity"/>
+        <activity
+            android:name=".AboutActivity"
+            android:label="About us"
+            android:theme="@style/AppTheme1"/>
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="Feedback"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".HomeScreenActivity"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".EventDetailActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".SectionActivity"
+                  android:theme="@style/tabActivity"
+
+            />
+    </application>
+
+</manifest>

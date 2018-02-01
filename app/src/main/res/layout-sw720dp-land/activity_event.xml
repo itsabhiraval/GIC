@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0px"
+    tools:context=".EventActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scroll"
+      android:layout_marginTop="8dp"
+        android:scrollbars="vertical" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scroll"
+        android:scrollbars="none"
+        android:padding="4dp"
+        android:layout_marginRight="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="72dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:text="All"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/white"
+                android:background="@drawable/horizontalbutton"
+                android:textSize="18sp"
+                />
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:text="Workshop"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/white"
+                android:background="@drawable/horizontalbutton"
+                android:textSize="18sp"/>
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:text="Techfest"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/white"
+                android:background="@drawable/horizontalbutton"
+                android:textSize="18sp"
+                />
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:text="Seminar"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/white"
+                android:background="@drawable/horizontalbutton"
+                android:textSize="18sp"/>
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:text="CO/IT"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/white"
+                android:background="@drawable/horizontalbutton"
+                android:textSize="18sp"
+                />
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:text="Sports"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/white"
+                android:background="@drawable/horizontalbutton"
+                android:textSize="18sp"/>
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:text="All"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/white"
+                android:background="@drawable/horizontalbutton"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>
